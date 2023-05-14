@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Shop App
 
-## Getting Started
+The Next.js Shop App is a web application built using Next.js, Tailwind CSS, and TypeScript. It utilizes the Fetch API to interact with a fake store API, allowing users to browse and view product details.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Product Listing**: The application displays a list of products on the home screen, showcasing key information such as product name, price, and image.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Product Details**: Users can click on a specific product to view detailed information about it. This includes a description, additional images, and any other relevant details.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **User Interface**: The UI is built using Tailwind CSS, providing a visually appealing and responsive design.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+The Next.js Shop App incorporates the following technologies:
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js: A React framework for building server-rendered applications.
+- Tailwind CSS: A utility-first CSS framework for building customizable and responsive interfaces.
+- TypeScript: A statically typed superset of JavaScript, adding type checking capabilities to the project.
+- Fetch API: A built-in web API used for making HTTP requests to the fake store API.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To run the Next.js Shop App locally, follow these steps:
 
-## Deploy on Vercel
+1. Clone the repository: `git clone https://github.com/DanielRazal/Shop-Api.git`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies: `npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Start the development server: `npm run dev`
+
+4. Access the application in your browser at `http://localhost:3000`.
+
+## Future Enhancements
+
+Here are some potential improvements and features that could be added to the Next.js Shop App:
+
+- Implement a shopping cart functionality to allow users to add products and make purchases.
+- Incorporate user authentication and account management features.
+- Add search and filtering options for improved product discovery.
+
+## Contributing
+
+Contributions to the Next.js Shop App are welcome! If you encounter any issues or have suggestions for improvement, please open an issue on the GitHub repository.
+
+## License
+
+The Next.js Shop App is open-source and released under the [MIT License](https://github.com/DanielRazal/Shop-Api/blob/main/LICENSE).
