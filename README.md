@@ -4,7 +4,7 @@ The Next.js Shop App is a web application built using Next.js, Tailwind CSS, and
 
 ## Deployment
 
-The Football-App project has been deployed to the Internet. You can access it using the following URL: [https://shop-api-blue.vercel.app/)
+The Football-App project has been deployed to the Internet. You can access it using the following URL: [https://shop-api-blue.vercel.app/]
 
 ## Features
 
