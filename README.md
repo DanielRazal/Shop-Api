@@ -2,6 +2,10 @@
 
 The Next.js Shop App is a web application built using Next.js, Tailwind CSS, and TypeScript. It utilizes the Fetch API to interact with a fake store API, allowing users to browse and view product details.
 
+## Deployment
+
+The Football-App project has been deployed to the Internet. You can access it using the following URL: [https://shop-api-blue.vercel.app/)
+
 ## Features
 
 1. **Product Listing**: The application displays a list of products on the home screen, showcasing key information such as product name, price, and image.
